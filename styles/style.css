@@ -11,7 +11,7 @@
 
 .logo {
   height: 32px;
-  width: 183px
+  width: 183px;
 }
 
 .logo_place_header {
@@ -211,7 +211,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 0;
 }
 
 .feynman {
