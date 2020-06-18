@@ -10,7 +10,6 @@
 }
 
 .logo {
-  border: solid 1px red;
   height: 32px;
   width: 183px
 }
@@ -28,14 +27,12 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  border: solid 1px blue;
   background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
 .header__title {
   width: 730px;
-  border: solid 1px red;
   margin: auto;
   margin-left: 64px;
 }
@@ -48,7 +45,6 @@
 }
 
 .header__subtitle {
-  border: solid 1px red;
   position: absolute;
   z-index: 2;
   width: 380px;
@@ -89,13 +85,8 @@
 
 .two-columns__brief {
   width: 175px;
-  border: solid 1px green;
   display: flex;
   line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  border: solid 1px red;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -103,12 +94,14 @@
 
 .two-columns__brief_header {
   margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  border: solid 1px green;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -121,14 +114,11 @@
 .description {
   position: relative;
   top: 100px;
-  border: solid 1px blue;
   display: flex;
-  background-color: #f2f2f2;
 }
 
 .two-columns {
   width: 80%;
-  border: solid 1px violet;
   margin-top: 100px;
   display: flex;
   margin: auto;
@@ -136,7 +126,6 @@
 }
 
 .paragraph {
-  border: solid 1px red;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -155,12 +144,9 @@
   bottom: 100px;
   display: flex;
   flex-direction: column;
-  border: solid 1px green;
-  background-color: #f2f2f2;
 }
 
 .section-title {
-  border: solid 1px red;
   width: 60%;
   text-align: center;
   margin: auto;
@@ -174,7 +160,6 @@
 }
 
 .section-subtitle {
-  border: solid 1px red;
   width: 60%;
   text-align: center;
   margin: auto;
@@ -189,7 +174,6 @@
 }
 
 .table {
-  border: solid 1px red;
   width: 1100px;
   margin: auto;
 }
@@ -199,12 +183,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  border: solid 1px green;
   margin-top: 60px;
 }
 
 .table__cell {
-  border: solid 1px red;
   margin: 0;
   width: 250px;
   display: flex;
@@ -216,7 +198,6 @@
 }
 
 .table__heading {
-  border: solid 1px red;
   margin: 0;
   margin-bottom: 20px;
   line-height: 1.15;
@@ -225,7 +206,6 @@
 }
 
 .table__text {
-  border: solid 1px red;
   margin: 0;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -236,7 +216,6 @@
 
 .feynman {
   position: relative;
-  border: solid 1px blue;
   height: 790px;
   top: 300px;
   display: flex;
@@ -245,12 +224,10 @@
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-position: bottom left;
-  border: solid 1px blue;
   background-color: #f2f2f2;
 }
 
 .feynman__title {
-  border: solid 1px red;
   width: 648px;
   margin: auto;
   margin-bottom: 70px;
@@ -265,7 +242,6 @@
 }
 
 .feynman__subtitle {
-  border: solid 1px red;
   margin: auto;
   line-height: 51px;
   font-size: 36px;
@@ -288,12 +264,12 @@
 
 .kaufman {
   position: relative;
-  top: 390px;
+  top: 300px;
   display: flex;
   flex-direction: column;
-  border: solid 1px green;
   background-color: #1f1f1f;
   overflow: hidden;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -333,21 +309,18 @@
   position: absolute;
   right: -210px;
   z-index: 0;
-
-
 }
 
 .footer {
-  border: solid 1px red;
   position: relative;
-  top: 450px;
+  top: 300px;
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
+
 }
 
 .footer__columns {
-  border: solid 1px red;
   width: 90%;
   display: flex;
   flex-direction: row;
@@ -359,7 +332,6 @@
 }
 
 .footer__column_content_copyright {
-  border: solid 1px blue;
   list-style-type: none;
   padding-left: 0;
   flex-basis: 711px;
@@ -375,7 +347,6 @@
 }
 
 .footer__author {
-  border: solid 1px orange;
   margin-top: 18px;
   margin-bottom: 18px;
   line-height: 25px;
@@ -385,21 +356,18 @@
 }
 
 .footer__column_content_info {
-  border: solid 1px blue;
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
 
 .footer__column_content_social {
-  border: solid 1px blue;
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
 
 .footer__column-heading {
-  border: solid 1px green;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
@@ -408,7 +376,6 @@
 }
 
 .footer__column-links_block {
-  border: solid 1px violet;
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 16px;
@@ -417,7 +384,6 @@
 }
 
 .footer__column-links {
-  border: solid 1px green;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -425,7 +391,6 @@
   color: #f2f2f2;
 }
 .footer__social-icon_block {
-  border: solid 1px violet;
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 16px;
@@ -434,7 +399,6 @@
 }
 
 .footer__social-icon {
-  border: solid 1px green;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
