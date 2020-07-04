@@ -7,4 +7,11 @@
   font-weight: normal;
   text-decoration: none;
   color: black;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.feynman__link:hover {
+  color: orangered;
+  opacity: .3;
 }

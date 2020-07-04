@@ -5,4 +5,11 @@
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.footer__column-links:hover {
+  color: orangered;
+  opacity: .3;
 }
